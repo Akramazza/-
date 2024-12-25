@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع الألغاز</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>أهلاً بك في موقع الألغاز</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#puzzles">الألغاز</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>أحدث الألغاز</h2>
+        <div id="puzzle-list">
+            <div class="puzzle-item">
+                <h3>ما هو الشيء الذي كلما أخذت منه أكثر، كبر؟</h3>
+                <button onclick="revealAnswer('answer1')">عرض الإجابة</button>
+                <p id="answer1" class="answer">الحفرة</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 موقع الألغاز</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
